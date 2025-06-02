@@ -1,0 +1,45 @@
+WIRESHARK
+analysis of wireshark
+1. Start Capturing on Active Network Interface
+Open Wireshark.
+
+Select your active network interface (e.g., Wi-Fi, Ethernet).
+
+Click the blue shark fin icon to start capturing.
+
+2. Browse a Website or Ping a Server
+Open a browser and visit a website (e.g., https://example.com)
+3. Stop Capture After a Minute
+Let the capture run for ~1 minute.
+
+Click the red square icon in Wireshark to stop capturing.
+
+4. Filter Captured Packets by Protocol
+Use these display filters in the top filter bar:
+
+http – filters HTTP traffic
+
+dns – filters DNS queries and responses
+
+tcp – filters all TCP packets
+
+You can try others like icmp, tls, or arp.
+
+5. Identify at Least 3 Different Protocols
+Examples likely found:
+
+DNS – Domain name resolution (UDP port 53)
+
+HTTP/HTTPS – Web browsing
+
+TCP – Underlying transport layer for most applications
+
+Other possible ones: TLS, ICMP, ARP, UDP
+
+6. Export the Capture as a .pcap File
+File → Export Specified Packets → Save as .pcap
+
+
+
+
+
